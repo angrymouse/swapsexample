@@ -1,0 +1,16 @@
+{
+  "name": "swapsexample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build-proto": "protoc"
+  },
+  "dependencies": {
+    "@cosmjs/launchpad": "^0.27.1",
+    "@cosmjs/proto-signing": "^0.28.4",
+    "@cosmjs/stargate": "^0.28.4",
+    "@cosmjs/tendermint-rpc": "^0.28.4",
+    "ts-proto": "^1.112.0"
+  }
+}
